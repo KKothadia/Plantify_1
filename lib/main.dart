@@ -248,7 +248,7 @@ class QuizScreen extends StatefulWidget {
 }
 
 class QuizScreenState extends State<QuizScreen> {
-  int _currentQuestion = 0;
+  int _currentQuestion = 0;git commit -m
   final Map<int, dynamic> _answers = {}; // Stores answers
 
   final List<Map<String, dynamic>> _questions = [
